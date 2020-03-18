@@ -6,10 +6,10 @@ So I wrote this program to hide my seeds into images.
 
 Key Features
 
-Add random words to increase difficulty of decoding (adds two words for every word in your message)
-Use your own 7 digit keyword as an encryption key (prevents someone with the same program decoding your image)
-Your message including the extra words are all encrpyted before embedding in image
-Charactors in image are not embedded in order. So if someone does work out there is something in the image, it is almost impossible to decode
+Add random words to increase difficulty of decoding (adds two words for every word in your message).
+Use your own 7 digit keyword as an encryption key (prevents someone with the same program decoding your image).
+Your message including the extra words are all encrpyted before embedding in image.
+Charactors in image are not embedded in order. So if someone does work out there is something in the image, it is almost impossible to decode.
 
 Please feel free to add pull requests with anything ypou thing should be added / changed.
 
