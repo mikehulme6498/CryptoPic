@@ -1,0 +1,51 @@
+C:\Users\Mike\source\repos\Steganography\Steganography\bin\Debug\Steganography.exe.config
+C:\Users\Mike\source\repos\Steganography\Steganography\bin\Debug\Steganography.exe
+C:\Users\Mike\source\repos\Steganography\Steganography\bin\Debug\Steganography.pdb
+C:\Users\Mike\source\repos\Steganography\Steganography\obj\Debug\Steganography.Form1.resources
+C:\Users\Mike\source\repos\Steganography\Steganography\obj\Debug\Steganography.Properties.Resources.resources
+C:\Users\Mike\source\repos\Steganography\Steganography\obj\Debug\Steganography.csproj.GenerateResource.cache
+C:\Users\Mike\source\repos\Steganography\Steganography\obj\Debug\Steganography.csproj.CoreCompileInputs.cache
+C:\Users\Mike\source\repos\Steganography\Steganography\obj\Debug\Steganography.exe
+C:\Users\Mike\source\repos\Steganography\Steganography\obj\Debug\Steganography.pdb
+C:\Users\Mike\source\repos\Steganography\Steganography\obj\Debug\Steganography.csprojAssemblyReference.cache
+M:\Settings\Desktop\Steganography\Steganography\bin\Debug\Steganography.exe.config
+M:\Settings\Desktop\Steganography\Steganography\bin\Debug\Steganography.exe
+M:\Settings\Desktop\Steganography\Steganography\bin\Debug\Steganography.pdb
+M:\Settings\Desktop\Steganography\Steganography\obj\Debug\Steganography.csprojAssemblyReference.cache
+M:\Settings\Desktop\Steganography\Steganography\obj\Debug\Steganography.Form1.resources
+M:\Settings\Desktop\Steganography\Steganography\obj\Debug\Steganography.Properties.Resources.resources
+M:\Settings\Desktop\Steganography\Steganography\obj\Debug\Steganography.csproj.GenerateResource.cache
+M:\Settings\Desktop\Steganography\Steganography\obj\Debug\Steganography.csproj.CoreCompileInputs.cache
+M:\Settings\Desktop\Steganography\Steganography\obj\Debug\Steganography.exe
+M:\Settings\Desktop\Steganography\Steganography\obj\Debug\Steganography.pdb
+C:\Users\Mike\Desktop\Steganography\Steganography\bin\Debug\Steganography.exe.config
+C:\Users\Mike\Desktop\Steganography\Steganography\bin\Debug\Steganography.exe
+C:\Users\Mike\Desktop\Steganography\Steganography\bin\Debug\Steganography.pdb
+C:\Users\Mike\Desktop\Steganography\Steganography\obj\Debug\Steganography.csprojAssemblyReference.cache
+C:\Users\Mike\Desktop\Steganography\Steganography\obj\Debug\Steganography.Form1.resources
+C:\Users\Mike\Desktop\Steganography\Steganography\obj\Debug\Steganography.Properties.Resources.resources
+C:\Users\Mike\Desktop\Steganography\Steganography\obj\Debug\Steganography.csproj.GenerateResource.cache
+C:\Users\Mike\Desktop\Steganography\Steganography\obj\Debug\Steganography.csproj.CoreCompileInputs.cache
+C:\Users\Mike\Desktop\Steganography\Steganography\obj\Debug\Steganography.exe
+C:\Users\Mike\Desktop\Steganography\Steganography\obj\Debug\Steganography.pdb
+M:\Settings\Desktop\Steganography (1)\Steganography\bin\Debug\Steganography.exe.config
+M:\Settings\Desktop\Steganography (1)\Steganography\bin\Debug\Steganography.exe
+M:\Settings\Desktop\Steganography (1)\Steganography\bin\Debug\Steganography.pdb
+M:\Settings\Desktop\Steganography (1)\Steganography\obj\Debug\Steganography.csprojAssemblyReference.cache
+M:\Settings\Desktop\Steganography (1)\Steganography\obj\Debug\Steganography.Form1.resources
+M:\Settings\Desktop\Steganography (1)\Steganography\obj\Debug\Steganography.Properties.Resources.resources
+M:\Settings\Desktop\Steganography (1)\Steganography\obj\Debug\Steganography.csproj.GenerateResource.cache
+M:\Settings\Desktop\Steganography (1)\Steganography\obj\Debug\Steganography.csproj.CoreCompileInputs.cache
+M:\Settings\Desktop\Steganography (1)\Steganography\obj\Debug\Steganography.exe
+M:\Settings\Desktop\Steganography (1)\Steganography\obj\Debug\Steganography.pdb
+M:\Settings\Desktop\Steganography (1)\Steganography\obj\Debug\Steganography.FrmModifyDateTime.resources
+C:\Users\mikeh\OneDrive\Programming\C#\Steganography v3\Steganography\obj\Debug\Steganography.csprojAssemblyReference.cache
+C:\Users\mikeh\OneDrive\Programming\C#\Steganography v3\Steganography\obj\Debug\Steganography.Form1.resources
+C:\Users\mikeh\OneDrive\Programming\C#\Steganography v3\Steganography\obj\Debug\Steganography.FrmModifyDateTime.resources
+C:\Users\mikeh\OneDrive\Programming\C#\Steganography v3\Steganography\obj\Debug\Steganography.Properties.Resources.resources
+C:\Users\mikeh\OneDrive\Programming\C#\Steganography v3\Steganography\obj\Debug\Steganography.csproj.GenerateResource.cache
+C:\Users\mikeh\OneDrive\Programming\C#\Steganography v3\Steganography\obj\Debug\Steganography.exe
+C:\Users\mikeh\OneDrive\Programming\C#\Steganography v3\Steganography\obj\Debug\Steganography.pdb
+C:\Users\mikeh\OneDrive\Programming\C#\Steganography v3\Steganography\bin\Debug\Steganography.exe.config
+C:\Users\mikeh\OneDrive\Programming\C#\Steganography v3\Steganography\bin\Debug\Steganography.exe
+C:\Users\mikeh\OneDrive\Programming\C#\Steganography v3\Steganography\bin\Debug\Steganography.pdb
