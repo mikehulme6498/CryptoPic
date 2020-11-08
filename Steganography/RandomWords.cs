@@ -1,16 +1,13 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Steganography
 {
     public static class RandomWords
     {
-       private static List<int> usedNumbers = new List<int>();
+        private static List<int> usedNumbers = new List<int>();
 
-       private static readonly List<string> words = new List<string>() {
+        private static readonly List<string> words = new List<string>() {
 
             "evidence","stopped","grass","related","planet","court","lungs","comfortable","there","bridge",
             "shown","daughter","air","love","excited","actual","already","picture","aside","facing",
@@ -112,14 +109,14 @@ namespace Steganography
             "mostly","future","actual","test","lake","handsome","lucky","private","am","later" ,
             "stream","off","hair","first","pictured","promised","quiet","song","forth","round" ,
             "involved","level","larger","air","last","zero","draw","mysterious","transportation","sides" ,
-            "bend","oxygen","bean","upper","only","highest","vertical","once","possible","passage" 
+            "bend","oxygen","bean","upper","only","highest","vertical","once","possible","passage"
         };
 
 
         public static string GenerateRandomWord()
         {
-            Random rand = new Random((int)DateTime.Now.Ticks+1);
-            
+            Random rand = new Random((int)DateTime.Now.Ticks + 1);
+
             bool numberUsed = false;
             int number;
 
@@ -132,7 +129,7 @@ namespace Steganography
                     usedNumbers.Add(number);
                     numberUsed = true;
                 }
-                
+
             } while (!numberUsed);
 
             return words[number];

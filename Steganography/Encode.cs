@@ -1,15 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows.Forms;
 
 namespace Steganography
 {
     static class Encode
-
     {
         public static void EmbedAdditionalWordsFlag(ImageInfo currentImage)
         {
@@ -59,8 +54,6 @@ namespace Steganography
                 currentImage.Image.SetPixel(startX, startY, Color.FromArgb(pixel.R, pixel.G, length[i]));
                 startX -= 10;
             }
-
-
         }
 
         public static void ChangePixelsInRow(int currentX, int currentY, ref int currentPosInString, ImageInfo currentImage, int messageLength, string message)

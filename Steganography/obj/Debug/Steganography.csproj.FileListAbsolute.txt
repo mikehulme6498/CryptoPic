@@ -49,3 +49,14 @@ C:\Users\mikeh\OneDrive\Programming\C#\Steganography v3\Steganography\obj\Debug\
 C:\Users\mikeh\OneDrive\Programming\C#\Steganography v3\Steganography\bin\Debug\Steganography.exe.config
 C:\Users\mikeh\OneDrive\Programming\C#\Steganography v3\Steganography\bin\Debug\Steganography.exe
 C:\Users\mikeh\OneDrive\Programming\C#\Steganography v3\Steganography\bin\Debug\Steganography.pdb
+C:\Users\mike.hulme\Source\Repos\CryptoPic\Steganography\bin\Debug\Steganography.exe.config
+C:\Users\mike.hulme\Source\Repos\CryptoPic\Steganography\bin\Debug\Steganography.exe
+C:\Users\mike.hulme\Source\Repos\CryptoPic\Steganography\bin\Debug\Steganography.pdb
+C:\Users\mike.hulme\Source\Repos\CryptoPic\Steganography\obj\Debug\Steganography.csprojAssemblyReference.cache
+C:\Users\mike.hulme\Source\Repos\CryptoPic\Steganography\obj\Debug\Steganography.FrmModifyDateTime.resources
+C:\Users\mike.hulme\Source\Repos\CryptoPic\Steganography\obj\Debug\Steganography.Properties.Resources.resources
+C:\Users\mike.hulme\Source\Repos\CryptoPic\Steganography\obj\Debug\Steganography.csproj.GenerateResource.cache
+C:\Users\mike.hulme\Source\Repos\CryptoPic\Steganography\obj\Debug\Steganography.csproj.CoreCompileInputs.cache
+C:\Users\mike.hulme\Source\Repos\CryptoPic\Steganography\obj\Debug\Steganography.exe
+C:\Users\mike.hulme\Source\Repos\CryptoPic\Steganography\obj\Debug\Steganography.pdb
+C:\Users\mike.hulme\Source\Repos\CryptoPic\Steganography\obj\Debug\Steganography.MainWindow.resources

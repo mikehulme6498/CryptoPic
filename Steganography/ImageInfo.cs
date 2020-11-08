@@ -28,11 +28,6 @@ namespace Steganography
         public int MessageLength { get; set; }
         public string DecodedMessage { get; set; }
 
-        public ImageInfo()
-        {
-            
-        }
-
         public void Reset()
         {
             HowManyCharsFitInWidth = 0;
@@ -89,7 +84,6 @@ namespace Steganography
                 OriginalString.Add(temp[i]);
             }
             MessageSet = true;
-            //originalMessageEncrypted = OriginalString;
         }
 
         public void AddAdditionalWords()
@@ -102,10 +96,8 @@ namespace Steganography
                 temp.Add(this.OriginalString[i]);
                 temp.Add(RandomWords.GenerateRandomWord());
                 temp.Add(RandomWords.GenerateRandomWord());
-            }
-            
-            StringWithExtras = temp;
-            
+            }            
+            StringWithExtras = temp;           
         }
 
         public string GetMessageAsString(List<string> message)
@@ -126,7 +118,6 @@ namespace Steganography
             {
                 return true;
             }
-
             return false;
         }
     }

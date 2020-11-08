@@ -1,9 +1,6 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Drawing;
-using System.Linq;
 using System.Text;
-using System.Threading.Tasks;
 
 namespace Steganography
 {
@@ -11,7 +8,7 @@ namespace Steganography
     {
         public static int GetSpacing(ImageInfo currentImage)
         {
-            Color pixel = currentImage.Image.GetPixel(10, currentImage.Image.Height-10);
+            Color pixel = currentImage.Image.GetPixel(10, currentImage.Image.Height - 10);
             int spacing = pixel.B;
             return spacing;
         }
@@ -52,8 +49,8 @@ namespace Steganography
             Color pixel = currentImage.Image.GetPixel(x, y);
             int numberOfDigits = pixel.B;
             string messageLength = "";
-            
-            for (int i=0; i<numberOfDigits; i++)
+
+            for (int i = 0; i < numberOfDigits; i++)
             {
                 x -= 10;
                 pixel = currentImage.Image.GetPixel(x, y);
@@ -61,9 +58,6 @@ namespace Steganography
                 string letter = Encoding.ASCII.GetString(new byte[] { Convert.ToByte(c) });
                 messageLength += letter;
             }
-            Console.WriteLine(numberOfDigits);
-            Console.WriteLine(messageLength);
-
             return Convert.ToInt32(messageLength);
         }
 
@@ -72,9 +66,9 @@ namespace Steganography
             Color pixel;
             int currentX = 10;
             int originalY = currentY;
-            
+
             bool secondRow = false;
-            string temp="";
+            string temp = "";
 
             for (int x = currentX; x < (currentImage.HowManyCharsFitInWidth * currentImage.Spacing); x += currentImage.Spacing)
             {
@@ -100,8 +94,8 @@ namespace Steganography
                 position++;
                 temp += letter;
             }
-            
-            return temp; 
+
+            return temp;
         }
     }
 }

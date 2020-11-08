@@ -1,21 +1,16 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
 using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace Steganography
 {
-    public partial class Form1 : Form
+    public partial class MainWindow : Form
     {
         ImageInfo currentImage = new ImageInfo();
 
-        public Form1()
+        public MainWindow()
         {
             InitializeComponent();
         }
@@ -27,7 +22,6 @@ namespace Steganography
                 Filter = "Image Files (*.png) | *.png;)",
                 InitialDirectory = @"C:\Users\Mike\Desktop"
             };
-
 
             if (openFile.ShowDialog() == DialogResult.OK)
             {
@@ -44,8 +38,6 @@ namespace Steganography
                 radDecode.Enabled = true;
                 radEncode.Enabled = true;
             }
-
-            
         }
 
         private void BtnEncode_Click(object sender, EventArgs e)
@@ -56,7 +48,6 @@ namespace Steganography
                 return;
             }
             EncodeImage();
-            
             SetRadButtonEnabled(false);
             ResetForm();
         }
@@ -72,10 +63,10 @@ namespace Steganography
             int currentPosInString = 0;
             int currentX = 10;
             int currentY = 10;
-            Encode.EmbedMessageLength(currentImage, txtMessageToEncrypt.TextLength-1);
+            Encode.EmbedMessageLength(currentImage, txtMessageToEncrypt.TextLength - 1);
             Encode.EmbedSpacing(currentImage);
             Encode.EmbedEncodedFlags(currentImage);
-            
+
             if (chkAdditionalWords.Checked)
             {
                 Encode.EmbedAdditionalWordsFlag(currentImage);
@@ -100,7 +91,6 @@ namespace Steganography
                 lblSaving.Visible = true;
                 txtFile.Text = saveFile.FileName.ToString();
                 pictureBox1.ImageLocation = txtFile.Text;
-               
 
                 Task save = new Task(() => SaveFile(txtFile.Text));
                 save.Start();
@@ -124,13 +114,13 @@ namespace Steganography
         {
             int currentY = 10;
             int messagePosition = 0;
-            int[] sequence = { 13, 37, 22, 3, 64, 88, 57 }; 
+            int[] sequence = { 13, 37, 22, 3, 64, 88, 57 };
             bool extraWords = Decode.HasItGotAdditionalWords(currentImage);
             currentImage.Spacing = Decode.GetSpacing(currentImage);
             currentImage.SetInfo();
             currentImage.MessageLength = Decode.GetMessageLength(currentImage);
             lblHeading.Text = "The Decoded message is";
-            
+
             if (txtDecodePass.TextLength == 7)
             {
                 sequence = GetAsciiNums(txtDecodePass.Text);
@@ -142,17 +132,15 @@ namespace Steganography
                 currentY += currentImage.Spacing;
             }
             while (messagePosition < currentImage.MessageLength);
-            Console.WriteLine(currentImage.DecodedMessage);
-
-
+            
 
             if (extraWords)
             {
                 string message = CypherMessage(currentImage.DecodedMessage, false, sequence);
                 string[] words = message.Trim().Split();
-                
 
-                for (int i = 0; i < words.Length; i+=3)
+
+                for (int i = 0; i < words.Length; i += 3)
                 {
 
                     if (i == words.Length)
@@ -163,20 +151,13 @@ namespace Steganography
                     {
                         txtMessageToEncrypt.Text += words[i] + " ";
                     }
-                   
                 }
             }
             else
             {
-                
                 txtMessageToEncrypt.Text = CypherMessage(currentImage.DecodedMessage, false, sequence);
             }
-            
-        }
-        
-        private void Form1_Load(object sender, EventArgs e)
-        {
-            
+
         }
 
         private void TxtMessage_TextChanged(object sender, EventArgs e)
@@ -214,7 +195,6 @@ namespace Steganography
             lblMaxChars.Text = currentImage.MaxCharactors.ToString();
             lblCharsUsed.Text = txtMessage.TextLength.ToString();
             txtSpacing.Text = currentImage.CalculateBestSpacing(Convert.ToInt32(lblCharsUsed.Text)).ToString();
-            //txtMessageToEncrypt.Text = CypherMessage(txtMessage.Text, true);
         }
 
         private string CypherMessage(string message, bool trueForUp, int[] sequence)
@@ -277,13 +257,13 @@ namespace Steganography
             char[] seperator = { ' ' };
             string[] temp = message.Split(seperator);
             List<string> messageList = new List<string>();
-            
+
             for (int i = 0; i < temp.Length; i++)
             {
                 messageList.Add(temp[i]);
             }
 
-            return messageList; 
+            return messageList;
         }
 
         private int ShiftChars(int charactor, int shiftBy, bool trueForUp)
@@ -296,7 +276,7 @@ namespace Steganography
                 {
                     newNum = (charactor + shiftBy) - 126 + 33;
 
-                    if(newNum > 126)
+                    if (newNum > 126)
                     {
                         newNum = ShiftChars(33, newNum - 126, trueForUp);
                     }
@@ -325,7 +305,7 @@ namespace Steganography
 
             return newNum;
         }
-     
+
 
         private void Button1_Click(object sender, EventArgs e)
         {
@@ -345,7 +325,7 @@ namespace Steganography
             }
             else
             {
-               
+
                 txtMessage.Text = currentImage.GetMessageAsString(currentImage.OriginalString);
             }
         }
@@ -388,7 +368,7 @@ namespace Steganography
             {
                 pnlEnterMessage.Visible = true;
                 lblHeading.Text = "Message That Will Be Encrypted Into Image";
-                
+
             }
             else
             {
@@ -440,7 +420,7 @@ namespace Steganography
             txtDecodePass.Text = "";
             pnlOptions.Visible = false;
             btnOpenFile.Enabled = true;
-            
+
             btnEncode.Enabled = false;
             btnStartAgain.Visible = false;
             txtMessageToEncrypt.Enabled = false;
@@ -473,8 +453,6 @@ namespace Steganography
         private void txtPassword_TextChanged(object sender, EventArgs e)
         {
             btnNextFinalMessage.Enabled = txtPassword.TextLength == 7 ? true : false;
-
-            
         }
 
         private void BtnNextForOptions_Click(object sender, EventArgs e)
@@ -512,9 +490,9 @@ namespace Steganography
             char[] letters = text.ToCharArray();
             int[] sequence = new int[7];
 
-            for (int i = 0; i<text.Length; i++)
+            for (int i = 0; i < text.Length; i++)
             {
-               sequence[i] = Convert.ToChar(letters[i]);
+                sequence[i] = Convert.ToChar(letters[i]);
             }
 
             return sequence;
@@ -560,12 +538,6 @@ namespace Steganography
         {
             Form form = new FrmModifyDateTime();
             form.Show();
-
-        }
-
-        private void label13_Click(object sender, EventArgs e)
-        {
-
         }
     }
 }
