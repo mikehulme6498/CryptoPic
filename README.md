@@ -13,4 +13,4 @@ Charactors in image are not embedded in order. So if someone does work out there
 
 Please feel free to add pull requests with anything you thing should be added / changed.
 
-***** Please not my own personal offline version has a different embedding pattern so you wont get my crypto wallet seeds :) ********
+***** Please note my own personal offline version has a different embedding pattern so you wont get my crypto wallet seeds :) ********
