@@ -1,4 +1,4 @@
-# Steganography
+# CryptoPic
 Program to hide messages into images and decode them
 
 As a crypto enthusiast I didn't like the idea of having my wallet seeds all stored on my computer / cloud or even just on paper.
