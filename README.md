@@ -11,6 +11,6 @@ Use your own 7 digit keyword as an encryption key (prevents someone with the sam
 Your message including the extra words are all encrpyted before embedding in image.
 Charactors in image are not embedded in order. So if someone does work out there is something in the image, it is almost impossible to decode.
 
-Please feel free to add pull requests with anything ypou thing should be added / changed.
+Please feel free to add pull requests with anything you thing should be added / changed.
 
 ***** Please not my own personal offline version has a different embedding pattern so you wont get my crypto wallet seeds :) ********
