@@ -4,6 +4,8 @@ Program to hide messages into images and decode them
 As a crypto enthusiast I didn't like the idea of having my wallet seeds all stored on my computer / cloud or even just on paper.
 So I wrote this program to hide my seeds into images.
 
+You can see a demo of teh app here https://youtu.be/L8itBSK1z_c
+
 Key Features
 
 Add random words to increase difficulty of decoding (adds two words for every word in your message).
