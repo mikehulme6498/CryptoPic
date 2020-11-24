@@ -6,7 +6,7 @@ So I wrote this program to hide my seeds into images.
 
 #### Video Demo
 
-[![Watch the video](http://mikehulme.co.uk/Images/CryptoPicYouTube.png)](https://www.youtube.com/watch?v=L8itBSK1z_c&t=70s&ab_channel=MikeHulme)
+[![Watch the video](http://mikehulme.co.uk/Images/CryptoPicYouTube2.png)](https://www.youtube.com/watch?v=L8itBSK1z_c&t=70s&ab_channel=MikeHulme)
 
 Key Features
 
