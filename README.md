@@ -6,6 +6,8 @@ So I wrote this program to hide my seeds into images.
 
 You can see a demo of teh app here https://youtu.be/L8itBSK1z_c
 
+[![Watch the video](http://mikehulme.co.uk/Images/CryptoPicYouTube.png)](https://www.youtube.com/watch?v=L8itBSK1z_c&t=70s&ab_channel=MikeHulme)
+
 Key Features
 
 Add random words to increase difficulty of decoding (adds two words for every word in your message).
