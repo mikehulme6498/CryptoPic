@@ -4,7 +4,7 @@ Program to hide messages into images and decode them
 As a crypto enthusiast I didn't like the idea of having my wallet seeds all stored on my computer / cloud or even just on paper.
 So I wrote this program to hide my seeds into images.
 
-You can see a demo of teh app here https://youtu.be/L8itBSK1z_c
+#### Video Demo
 
 [![Watch the video](http://mikehulme.co.uk/Images/CryptoPicYouTube.png)](https://www.youtube.com/watch?v=L8itBSK1z_c&t=70s&ab_channel=MikeHulme)
 
